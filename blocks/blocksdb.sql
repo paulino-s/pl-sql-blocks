@@ -1,15 +1,9 @@
 CREATE TABLESPACE clinica_tsp
   DATAFILE 'UESclinica.dbf'
   SIZE 20M AUTOEXTEND ON;
+  TABLESPACE tbs1;
 
-
-  /*Por el tiempo no se agregó, pero sería de la siguiente manera, esto para cada table, indice y restriccion*/
-
-  TABLESPACE tbs1
-
-  /*POR EJEMPLO: para la tabla clinica quedará*/
-
-  TABLESPACE clinica_tsp
+  TABLESPACE clinica_tsp;
 
 
 /*'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''*/
